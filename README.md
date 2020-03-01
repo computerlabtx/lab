@@ -4,7 +4,7 @@
 
 * Use your email address to register a GitHub account, make sure to write down your password
 
-  http://githu.com/
+  http://github.com/
 
 ## Set up key access your GitHub from your Linux 
 
@@ -19,7 +19,7 @@
 ```
 # ssh-keygen
 
-# cat ~/bin/.ssh/id_rsa.pub
+# cat ~/.ssh/id_rsa.pub
 ```
 
 * add the public key your GitHub account under Settings -> "SSH and GPG keys" -> "New SSH key"
