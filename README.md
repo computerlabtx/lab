@@ -44,7 +44,7 @@ under your home directory
 # cd ~/
 # mkdir git
 # cd git
-# wget git@github.com:computerlabtx/lab.git
+# git clone git@github.com:computerlabtx/lab.git
 # cd lab/
 # ls -la
 ```
