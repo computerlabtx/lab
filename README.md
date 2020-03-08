@@ -97,3 +97,30 @@ any notes you will take for the class.  By doing so, you will always have a copy
 in the cloud and you can have access to your work from other places if you're not on your 
 VM.  And it provides as a safety if in any case you lost your VirtualBox and/or Ubuntu. 
 
+
+## Install GIT on Ubuntu 18.10
+
+Run following command
+
+```
+# sudo cp /etc/apt/sources.list /etc/apt/sources.list.orig
+# sudo sed -i -e 's/us.archive.ubuntu.com\|security.ubuntu.com/old-releases.ubuntu.com/g' /etc/apt/sources.list
+```
+
+```
+# sudo vi /etc/resolv.conf
+```
+
+add the following as the first nameserver entry
+
+```
+nameserver 8.8.8.8
+```
+
+```
+# sudo apt update && sudo apt -y upgrade
+```
+
+
+```
+# sudo sudo apt -y install git
