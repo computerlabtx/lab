@@ -28,9 +28,9 @@
 
 * Create a new repository, make sure to mark it as a private repository
 
-## Work with your GitHub repositoy 
+## Work with your GitHub repository
 
-Go to your GitHub repositoy page and click on "Clone or download" button, copy the repository link, here
+Go to your GitHub repository page and click on "Clone or download" button, copy the repository link, here
 we use our lab repository as example,
 
 ```
@@ -123,4 +123,4 @@ nameserver 8.8.8.8
 
 
 ```
-# sudo sudo apt -y install git
+# sudo apt -y install git
